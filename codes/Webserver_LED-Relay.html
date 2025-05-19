@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
+<title>ESP-01 RELAY Control</title>
+<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}
+.button { background-color: #195B6A; border: none; color: white; padding: 16px 40px;
+text-decoration: none; font-size: 20px; margin: 2px; cursor: pointer;}
+.button2 {background-color: #77878A;}</style>
+</head>
+<body>
+<h1 align = center>ESP8266 LED Matrix & Relay Control</h1>
+  <form action="/get">
+    Send Customize Text: <input type="text" name="input1">
+    <input type="submit" value="Submit" class="button">
+  </form><br>
+<a href="/get?input2=ON"><button class="button">Relay #1 TURN ON</button></a>
+<a href="/get?input2=OFF"><button class="button button2">Relay #1 TURN OFF</button></a><br>
+<a href="/get?input3=ON"><button class="button">Relay #2 TURN ON</button></a>
+<a href="/get?input3=OFF"><button class="button button2">Relay #2 TURN OFF</button></a><br>
+<a href="/get?input4=ON"><button class="button">Relay #3 TURN ON</button></a>
+<a href="/get?input4=OFF"><button class="button button2">Relay #3 TURN OFF</button></a><br>
+<a href="/get?input5=ON"><button class="button">Relay #4 TURN ON</button></a>
+<a href="/get?input5=OFF"><button class="button button2">Relay #4 TURN OFF</button></a><br>
+</body>
+</html>
